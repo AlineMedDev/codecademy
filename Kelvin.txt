@@ -1,0 +1,7 @@
+const kelvin = 0; //temperatura de hoje
+const Celsius = kelvin - 273; // diferença
+let Newton = Celsius * (33 / 100);
+//conversão para Newton
+Newton = Math.floor(Newton);
+//para arrendondar o valor
+console.log(`The temperature is ${Newton} degrees Newton.`);
